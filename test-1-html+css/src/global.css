@@ -1,0 +1,27 @@
+@import './css/header.css';
+@import './css/main.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400;1,9..40,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #0A0A0A;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 24px;
+}
+
+@media (max-width: 480px) {
+  .body {
+    font-size: 16px;
+  }
+
+}
