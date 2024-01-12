@@ -5,5 +5,75 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Test 1 - HTML+CSS</title>
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <h1 class="header__title">Hello World</h1>
+            <span class="header__content">Always ready to meet with you.</span>
+        </header>
+        <main class="main">
+            <div class="wrapper main__map"></div>
+            <div class="wrapper cards">
+                <div class="card">
+                    <div class="card__title">
+                        <h3>Damietta</h3>
+                        <img src="/Damietta.png" alt="Damietta" class="card__title_img" />
+                    </div>
+                    <div class="card__contacts">
+                        <div class="card__contacts_info"><span>+20 0219033</span><span>alexbank@damietta.com</span></div>
+                        <span class="card__contacts_address"
+                            >3 Al Togari, Qism Damietta, Damietta,
+                            Damietta Governorate 34511, Egypt</span
+                        >
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <h3>Lille</h3>
+                        <img src="/Lille.png" alt="Lille" class="card__title_img" />
+                    </div>
+                    <div class="card__contacts">
+                        <div class="card__contacts_info"><span>+33 3 20 54 44 50</span><span>theatre-sebastobol@lille.fr</span></div>
+                        <span class="card__contacts_address">Pl. Sébastopol, 59000 Lille, France</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <h3>Dayton</h3>
+                        <img src="/Dayton.png" alt="Dayton" class="card__title_img" />
+                    </div>
+                    <div class="card__contacts">
+                        <div class="card__contacts_info"><span>+1 937 226 1710</span><span>info@americaspackardmuseum.org</span></div>
+                        <span class="card__contacts_address"
+                            >420 S Ludlow St, Dayton, OH 45402,
+                            United States</span
+                        >
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <h3>Kulusuk</h3>
+                        <img src="/Kulusuk.png" alt="Kulusuk" class="card__title_img" />
+                    </div>
+                    <div class="card__contacts">
+                        <div class="card__contacts_info"><span>+299 98 69 88</span><span>info@mit.gl</span></div>
+                        <span class="card__contacts_address">HVF8+R82, Kulusuk, Greenland</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">
+                        <h3>Kanazawa</h3>
+                        <img src="/Kanazawa.png" alt="Kanazawa" class="card__title_img" />
+                    </div>
+                    <div class="card__contacts">
+                        <div class="card__contacts_info"><span>+81 76 220 2469</span><span>kanazawa@lg.jp</span></div>
+                        <span class="card__contacts_address"
+                            >1 Chome Higashiyama, Kanazawa,<br />
+                            Ishikawa 920-0831, Japan</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
 </html>
